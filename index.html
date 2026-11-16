@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>511 S Eastern Blvd &mdash; Former Hotel Site &mdash; Broker Price Opinion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root, [data-theme="light"] {
+      --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+      --text-sm: clamp(0.875rem, 0.8rem + 0.35vw, 1rem);
+      --text-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+      --text-lg: clamp(1.125rem, 1rem + 0.75vw, 1.5rem);
+      --text-xl: clamp(1.5rem, 1.2rem + 1.25vw, 2.25rem);
+      --text-2xl: clamp(2rem, 1.2rem + 2.5vw, 3.5rem);
+      --space-1: .25rem; --space-2: .5rem; --space-3: .75rem; --space-4: 1rem; --space-5: 1.25rem; --space-6: 1.5rem; --space-8: 2rem; --space-10: 2.5rem; --space-12: 3rem; --space-16: 4rem;
+      --color-bg:#ffffff; --color-surface:#ffffff; --color-surface-2:#eaf2ed; --color-border:#e1ded6; --color-text:#333333; --color-text-muted:#6b6f6c;
+      --color-primary:#17613c; --color-primary-2:#d9ebe1; --color-band:#a3701f; --color-band-soft:#f2e6d3;
+      --color-alert:#a3341f; --color-alert-soft:#f2dcd3;
+      --radius-md:.5rem; --radius-lg:.9rem; --radius-xl:1.2rem;
+      --shadow-sm:0 1px 2px rgba(0,0,0,.06); --shadow-md:0 8px 24px rgba(0,0,0,.08);
+      --font-display:'Outfit', system-ui, sans-serif; --font-body:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    }
+    *{box-sizing:border-box;margin:0;padding:0} html{scroll-behavior:smooth} body{font-family:var(--font-body);font-size:var(--text-base);color:var(--color-text);background:var(--color-bg);line-height:1.6}
+    a{color:var(--color-primary)} .container{max-width:1100px;margin:0 auto;padding:0 var(--space-4)}
+    .topbar{position:sticky;top:0;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:2px solid var(--color-primary);z-index:20}
+    .topbar-inner{display:flex;justify-content:space-between;align-items:center;padding:var(--space-3) 0;flex-wrap:wrap;gap:var(--space-2)}
+    .logo{display:flex;gap:var(--space-3);align-items:center;font-weight:600}
+    .logo img{height:42px;width:auto;display:block}
+    .hero{padding:var(--space-16) 0 var(--space-12)}
+    .eyebrow{font-size:var(--text-sm);letter-spacing:.12em;text-transform:uppercase;color:var(--color-text-muted);margin-bottom:var(--space-3)}
+    h1,h2,h3,h4{font-family:var(--font-display);line-height:1.12;font-weight:700;color:var(--color-primary)}
+    h1{font-size:var(--text-2xl);max-width:36ch;margin-bottom:var(--space-4)} h2{font-size:var(--text-xl);margin-bottom:var(--space-5)} h3{font-size:var(--text-lg);margin-bottom:var(--space-3)} h4{font-size:var(--text-base);margin-bottom:var(--space-2)}
+    .lede{max-width:76ch;color:var(--color-text-muted)}
+    .grid{display:grid;grid-template-columns:1.3fr .9fr;gap:var(--space-8);align-items:start}
+    .card{background:var(--color-surface);border:1px solid rgba(31,35,32,.12);border-radius:var(--radius-xl);padding:var(--space-6);box-shadow:var(--shadow-sm)}
+    .stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-4);margin-top:var(--space-8)}
+    .stat{background:var(--color-surface-2);border-radius:var(--radius-lg);padding:var(--space-4)} .stat-label{font-size:var(--text-xs);text-transform:uppercase;letter-spacing:.08em;color:var(--color-text-muted)} .stat-value{font-size:var(--text-lg);font-weight:700;margin-top:.2rem;color:var(--color-primary)}
+    .stat-alert .stat-value{color:var(--color-alert)}
+    section{padding:var(--space-10) 0}
+    section.alt{background:var(--color-surface-2)}
+    .table{width:100%;border-collapse:collapse;font-size:var(--text-sm)} .table th,.table td{padding:.85rem .6rem;border-bottom:1px solid rgba(31,35,32,.1);text-align:left;vertical-align:top} .table th{color:var(--color-text-muted);font-weight:600;white-space:nowrap}
+    .table-wrap{overflow-x:auto}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-8)}
+    .prop-card + .prop-card{margin-top:var(--space-6)}
+    .spec-list{display:flex;flex-direction:column;gap:var(--space-4);margin-top:var(--space-4)}
+    .spec-row{padding-bottom:var(--space-3);border-bottom:1px solid rgba(31,35,32,.1)}
+    .spec-row:last-child{border-bottom:none;padding-bottom:0}
+    .spec-label{font-size:var(--text-xs);color:var(--color-text-muted);font-weight:600;text-transform:uppercase;letter-spacing:.03em;margin-bottom:.25rem}
+    .spec-value{font-size:var(--text-sm);line-height:1.55}
+    .three-col{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-4)}
+    .pill{display:inline-block;background:var(--color-primary-2);color:var(--color-primary);padding:.35rem .7rem;border-radius:999px;font-size:var(--text-xs);font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+    .pill-band{display:inline-block;background:var(--color-band-soft);color:var(--color-band);padding:.35rem .7rem;border-radius:999px;font-size:var(--text-xs);font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+    .pill-alert{display:inline-block;background:var(--color-alert-soft);color:var(--color-alert);padding:.35rem .7rem;border-radius:999px;font-size:var(--text-xs);font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+    .pill-outline{display:inline-block;border:1px solid rgba(31,35,32,.18);color:var(--color-text-muted);padding:.3rem .65rem;border-radius:999px;font-size:var(--text-xs);font-weight:600;margin:.15rem .25rem .15rem 0}
+    .note{font-size:var(--text-sm);color:var(--color-text-muted);margin-top:var(--space-4)}
+    footer{padding:var(--space-10) 0;background:var(--color-primary);color:#ffffff;font-size:var(--text-sm)}
+    .footer-inner{display:flex;align-items:center;gap:var(--space-6);flex-wrap:wrap}
+    .footer-logo{height:36px;width:auto;filter:brightness(0) invert(1)}
+    .disclaimer{background:var(--color-surface-2);border-radius:var(--radius-lg);padding:var(--space-5);font-size:var(--text-sm);color:var(--color-text-muted);margin-top:var(--space-6)}
+    .prop-divider{display:flex;align-items:center;gap:var(--space-4);margin:var(--space-4) 0 var(--space-6)}
+    .prop-divider .badge{background:var(--color-primary);color:#fff;font-family:var(--font-display);font-weight:700;font-size:var(--text-xs);letter-spacing:.06em;text-transform:uppercase;padding:.4rem .85rem;border-radius:999px;white-space:nowrap}
+    .prop-divider .badge.two{background:var(--color-band)}
+    .prop-divider hr{flex:1;border:none;border-top:1px solid rgba(31,35,32,.15)}
+    .terms-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-6)}
+    .bio-grid{display:grid;grid-template-columns:.9fr 1.4fr;gap:var(--space-8);align-items:start}
+    .reuse-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-5);margin-top:var(--space-5)}
+    .reuse-card{background:var(--color-surface);border:1px solid rgba(31,35,32,.12);border-radius:var(--radius-lg);padding:var(--space-5)}
+    .reuse-card h4{margin-bottom:var(--space-2)}
+    .reuse-card ul{margin:0 0 0 1.1rem;padding:0;font-size:var(--text-sm)}
+    .reuse-card li{margin-bottom:.35rem}
+    @media (max-width: 820px){.grid,.two-col,.terms-grid,.three-col,.bio-grid,.reuse-grid{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}}
+    .btn-print{display:inline-flex;align-items:center;gap:.5rem;background:var(--color-primary);color:#ffffff;border:none;padding:.55rem 1.1rem;border-radius:999px;font-family:var(--font-body);font-weight:600;font-size:var(--text-xs);letter-spacing:.02em;cursor:pointer;box-shadow:var(--shadow-sm);transition:background .15s ease}
+    .btn-print:hover{background:#0f4a2d}
+    .btn-print svg{width:15px;height:15px;fill:currentColor;flex:none}
+    .topbar-actions{display:flex;align-items:center;gap:.75rem;flex-wrap:wrap}
+    @media screen and (max-width: 820px){.adj-table{min-width:760px}.comps-table{min-width:680px}.adj-table td:nth-child(4){min-width:380px}}
+    @media print {
+      .no-print{display:none !important}
+      *{-webkit-print-color-adjust:exact;print-color-adjust:exact;color-adjust:exact}
+      html,body{font-size:10.5pt;line-height:1.45}
+      .topbar{position:static;backdrop-filter:none;box-shadow:none;border-bottom:2px solid var(--color-primary)}
+      .hero{padding:14pt 0 10pt}
+      section{padding:12pt 0}
+      .grid,.two-col,.terms-grid,.three-col,.bio-grid,.reuse-grid{grid-template-columns:1fr;gap:10pt}
+      .stats{grid-template-columns:repeat(3,minmax(0,1fr));gap:8pt}
+      .spec-list{gap:6pt;margin-top:6pt}
+      .spec-row{padding-bottom:5pt}
+      .spec-label{font-size:7.5pt}
+      .spec-value{font-size:9pt;line-height:1.4}
+      h1{font-size:19pt;margin-bottom:8pt}
+      h2{font-size:14.5pt;margin-bottom:8pt}
+      h3{font-size:12pt;margin-bottom:6pt}
+      h4{font-size:10.5pt;margin-bottom:4pt}
+      .card{box-shadow:none;border:1px solid #d7d3c8;padding:10pt}
+      .stat{page-break-inside:avoid}
+      .reuse-card{page-break-inside:avoid;border:1px solid #d7d3c8}
+      table{font-size:9pt}
+      tr{page-break-inside:avoid}
+      .comps-table{table-layout:fixed;width:100%}
+      .comps-table th,.comps-table td{white-space:normal;word-wrap:break-word;overflow-wrap:break-word;font-size:6.4pt;line-height:1.32;padding:.28rem .18rem}
+      .adj-table{table-layout:fixed;width:100%}
+      .adj-table th,.adj-table td{white-space:normal;word-wrap:break-word;overflow-wrap:break-word;font-size:7pt;line-height:1.32;padding:.28rem .18rem}
+      .adj-table th:nth-child(1),.adj-table td:nth-child(1){width:15%}
+      .adj-table th:nth-child(2),.adj-table td:nth-child(2){width:9%}
+      .adj-table th:nth-child(3),.adj-table td:nth-child(3){width:8%}
+      .adj-table th:nth-child(4),.adj-table td:nth-child(4){width:58%}
+      .adj-table th:nth-child(5),.adj-table td:nth-child(5){width:10%}
+      .parcel-table{table-layout:fixed;width:100%}
+      .parcel-table th,.parcel-table td{white-space:normal;word-wrap:break-word;overflow-wrap:break-word;font-size:7.4pt;line-height:1.32;padding:.3rem .2rem}
+      .table-wrap{overflow-x:visible}
+      h2,h3,h4{page-break-after:avoid}
+      .prop-divider{page-break-after:avoid}
+      footer{background:var(--color-primary) !important;color:#ffffff !important;padding:10pt 0}
+      a{color:var(--color-primary) !important;text-decoration:none}
+      footer a{color:#ffffff !important;text-decoration:underline}
+      .sale-comps th:nth-child(1),.sale-comps td:nth-child(1){width:22%}
+      .sale-comps th:nth-child(2),.sale-comps td:nth-child(2){width:9%}
+      .sale-comps th:nth-child(3),.sale-comps td:nth-child(3){width:11%}
+      .sale-comps th:nth-child(4),.sale-comps td:nth-child(4){width:8%}
+      .sale-comps th:nth-child(5),.sale-comps td:nth-child(5){width:9%}
+      .sale-comps th:nth-child(6),.sale-comps td:nth-child(6){width:8%}
+      .sale-comps th:nth-child(7),.sale-comps td:nth-child(7){width:14%}
+      .sale-comps th:nth-child(8),.sale-comps td:nth-child(8){width:8%}
+      .sale-comps th:nth-child(9),.sale-comps td:nth-child(9){width:11%}
+      .land-comps th:nth-child(1),.land-comps td:nth-child(1){width:28%}
+      .land-comps th:nth-child(2),.land-comps td:nth-child(2){width:10%}
+      .land-comps th:nth-child(3),.land-comps td:nth-child(3){width:12%}
+      .land-comps th:nth-child(4),.land-comps td:nth-child(4){width:9%}
+      .land-comps th:nth-child(5),.land-comps td:nth-child(5){width:10%}
+      .land-comps th:nth-child(6),.land-comps td:nth-child(6){width:31%}
+      @page{margin:0.55in}
+    }
+    .subject-photo{float:right;width:300px;max-width:100%;margin:0 0 var(--space-4) var(--space-6)}.subject-photo img{width:100%;height:auto;display:block;border-radius:var(--radius-lg);box-shadow:var(--shadow-md)}.subject-photo figcaption{font-size:var(--text-xs);color:var(--color-text-muted);margin-top:.4rem}.hero .stats{clear:both}
+    @media (max-width:700px){.subject-photo{float:none;width:100%;max-width:340px;margin:0 0 var(--space-4)}}
+    @media print{.subject-photo{width:2.4in}.card{break-inside:avoid;page-break-inside:avoid}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="logo"><img src="assets/gm-logo.svg" alt="Grant-Murray Real Estate" /></div>
+      <div class="topbar-actions">
+        <div class="pill">Broker Price Opinion</div>
+        <button class="btn-print no-print" type="button" onclick="window.print()">
+          <svg viewBox="0 0 24 24"><path d="M6 9V2h12v7h2a2 2 0 0 1 2 2v7h-4v4H6v-4H2v-7a2 2 0 0 1 2-2h2zm2-5v5h8V4H8zm8 14H8v3h8v-3zm2-2h2v-5H4v5h2v-2h12v2z"/></svg>
+          Print / Save as PDF
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="eyebrow">Broker Price Opinion &middot; Cleared Former Hotel Site, Heavy Industrial Zoning &middot; 511 S Eastern Blvd (US 301), Fayetteville, NC 28301</div>
+        <h1>511 S Eastern Blvd &mdash; 3.93-Acre Former Hotel Site &mdash; Broker Price Opinion</h1>
+        <style>.hero-map{margin:0 0 var(--space-5)}.hero-map img{width:100%;height:auto;display:block;border-radius:var(--radius-lg,10px);box-shadow:var(--shadow-md);border:1px solid rgba(31,35,32,.12)}.hero-map figcaption{font-size:var(--text-xs);color:var(--color-text-muted);margin-top:.4rem}@media print{.hero-map img{max-height:3.6in;width:auto;max-width:100%;margin:0 auto}}</style>
+        <figure class="hero-map"><img src="assets/site-map.jpg" alt="Aerial map of the 3.93-acre subject parcel on the east side of S Eastern Blvd, with Chrome-Rite Plating across the street and nearby tank-incident sites marked" width="1800" height="1429"/><figcaption>Subject parcel outlined in yellow (county GIS line). Aerial: Esri World Imagery, which predates the 2026 demolition. Points: NC DEQ records.</figcaption></figure>
+        <p class="lede">This report values the former Ramada / Knights Inn site at <strong>511 S Eastern Blvd</strong>, owned by <strong>AMG NC, LP</strong>. The City of Fayetteville condemned the 1972 hotel in 2025 and had it demolished in 2026. The site is now free of buildings, but the <strong>building pad and underground utilities remain</strong>. It is <strong>3.93 acres</strong>, zoned <strong>HI Heavy Industrial</strong>, with about 470 ft along US 301 (about 19,000 cars a day). The City&rsquo;s <strong>demolition cost of about $280,000</strong> is a lien on the land, and a former chrome-plating plant listed as an <strong>inactive hazardous site</strong> sits across the street.</p>
+        <div class="stats">
+          <div class="stat"><div class="stat-label">Land</div><div class="stat-value">3.93 ac</div></div>
+          <div class="stat"><div class="stat-label">Zoning</div><div class="stat-value">HI</div></div>
+          <div class="stat"><div class="stat-label">Demolition lien</div><div class="stat-value">&asymp;$280,000</div></div>
+          <div class="stat stat-alert"><div class="stat-label">Broker price opinion</div><div class="stat-value">$275,000</div></div>
+          <div class="stat"><div class="stat-label">Value range</div><div class="stat-value">$230K&ndash;$325K</div></div>
+        </div>
+        <p class="note">The price opinion of $275,000 is about <strong>$1.60 per SF</strong> ($70,000 per acre) of land, before the lien is paid. It is a gross value: the demolition lien and 2026 taxes come out of the seller&rsquo;s proceeds at closing, which leaves <strong>little or no net equity</strong> at today&rsquo;s value (see the net proceeds table). The recommended list price is <strong>$349,000</strong>. This is a broker&rsquo;s opinion of value for marketing purposes, not a certified USPAP appraisal.</p>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <h2>Subject property summary</h2>
+<div class="card"><div class="spec-list"><div class="spec-row"><div class="spec-label">Parcel</div><div class="spec-value">PIN 0446-09-2995 (REID 0446092995000), listed by the county as &ldquo;0 S Eastern Blvd.&rdquo; 3.93 acres (about 171,191 SF by GIS). Inside the city limits.</div></div><div class="spec-row"><div class="spec-label">Owner</div><div class="spec-value">AMG NC, LP, 6000 Columbus Ave #2504, Plano, TX 75024. The county shows no other Cumberland County parcels in this name.</div></div><div class="spec-row"><div class="spec-label">Location</div><div class="spec-value">East side of S Eastern Blvd (US 301 / I-95 Business), south of the Russell St and Person St area, about a mile southeast of downtown. Neighbors are truck terminals, an auto salvage yard to the east, light industry and older hotels. The Cape Fear River is to the east.</div></div><div class="spec-row"><div class="spec-label">Frontage and traffic</div><div class="spec-value">About 470 ft along the US 301 right-of-way on the west line, plus side-street frontage on the north and east lines (GIS estimate; a survey is needed). NCDOT counted 19,000 vehicles a day on US 301 north of Brock St in 2022.</div></div><div class="spec-row"><div class="spec-label">Prior improvements</div><div class="spec-value">Hotel built in 1972: two buildings totaling about 63,360 SF, including a 3,000 SF basement and a pool, with about 70,000 SF of asphalt paving. All buildings are now gone.</div></div><div class="spec-row"><div class="spec-label">Condition now</div><div class="spec-value">Cleared of buildings. Per the owner, the building pad and underground utilities remain. The City&rsquo;s demolition scope excluded asphalt and concrete surfaces unless directed, so the paving likely remains as well.</div></div><div class="spec-row"><div class="spec-label">Flood and wetlands</div><div class="spec-value">Outside the FEMA floodway and 100-year flood zone. GIS shows the parcel inside the 500-year (0.2% annual chance) zone. No mapped wetlands.</div></div><div class="spec-row"><div class="spec-label">2026 assessment</div><div class="spec-value">$962,702 total, of which land is $75,938. The building value is still on the tax card and should drop to land value at the 1/1/2027 listing date.</div></div></div></div><p class="note">Sources: Cumberland County <a href="https://taxpwa.co.cumberland.nc.us/camapwa/PropertySummary.aspx?PARCELPK=94320" target="_blank" rel="noopener">tax record</a> and <a href="https://gis.co.cumberland.nc.us/server/rest/services/" target="_blank" rel="noopener">GIS</a> parcel, flood and wetland layers; <a href="https://services.arcgis.com/NuWFvHYDMVmmxMeM/arcgis/rest/services/NCDOT_AADT_Stations/FeatureServer/0" target="_blank" rel="noopener">NCDOT traffic counts</a>; <a href="https://www.fayettevillenc.gov/files/sharedassets/main/v/1/finance/purchasing/bids/2026/april/lot-cleaning-asbestos-abatement-and-demolition-511-s-eastern-blvd-cao-4-29-26-ts-revised-took-out-signature-items-4.30.pdf" target="_blank" rel="noopener">City demolition bid documents</a> and a <a href="https://bidbanana.com/bid/VHq5fbhuw0w9sFJ6LwF5" target="_blank" rel="noopener">bid summary</a>. The property was not inspected for this report.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>Ownership and deed history</h2>
+<div class="card table-wrap"><table class="table parcel-table"><tr><th>Recorded</th><th>From / to</th><th>Price</th><th>Comment</th></tr><tr><td>5/11/2026 (Book 12521, Page 472)</td><td>Samrat Properties, LLC to AMG NC, LP. General warranty deed signed in 12/2025</td><td>$690,944 (excise tax $1,382)</td><td>Samrat held a 39% interest, so this appears to be a buyout of the minority co-owner by the majority co-owner. It is not an arm&rsquo;s-length sale of the whole site.</td></tr><tr><td>9/29/2021 (Book 11264, Page 4)</td><td>Shree Ganesh to Samrat Properties (39%) and AMG NC (61%)</td><td>$1,227,500</td><td>Operating hotel, before condemnation</td></tr><tr><td>4/6/2005</td><td>Prior owner</td><td>$2,200,000</td><td>Operating hotel</td></tr><tr><td>11/21/1994</td><td>Prior owner</td><td>$1,000,000</td><td>Operating hotel</td></tr><tr><td>12/12/1986</td><td>Prior owner</td><td>$2,842,500</td><td>Operating hotel</td></tr></table></div><p class="note">Sources: county deed history and the recorded deed images at the <a href="https://www.ccrodinternet.org/" target="_blank" rel="noopener">Cumberland County Register of Deeds</a>. The 2026 deed says the land &ldquo;was acquired by Grantor by instrument recorded in Book 11264, Page 0004,&rdquo; and it warrants title &ldquo;free and clear of all encumbrances&rdquo; subject only to restrictions, easements and rights-of-way of record. It does not mention the demolition ordinance recorded three months earlier.</p>
+      </div>
+    </section>
+
+    <section style="break-before:page" class="alt">
+      <div class="container">
+        <h2>Liens and encumbrances</h2>
+<div class="card table-wrap"><table class="table parcel-table"><tr><th>Item</th><th>Amount</th><th>Status</th><th>What it means for a sale</th></tr><tr><td><strong>City demolition lien</strong></td><td>About $277,656 (contract) to $280,000 (permit value), plus any City admin fees and interest</td><td>Demolition ordinance recorded 2/25/2026 (Book 12454, Page 424). Contract awarded 6/22/2026; demolition permit DEM2026-00073 issued in August 2026. No separate lien notice was found in the deed index yet.</td><td>Under NC law the cost is a lien on the land with the same priority as a special assessment, ahead of private liens. It must be paid or settled at closing. It is also a lien on the owner&rsquo;s other city property and can be collected like a court judgment.</td></tr><tr><td>2026 property taxes</td><td>$13,583.23 (County $4,803.88, City $4,327.35, stormwater fee $4,452.00)</td><td>Unpaid. Due 9/1/2026; interest starts 1/6/2027.</td><td>Paid or prorated at closing. The stormwater fee is based on hard surfaces and may be appealed if paving is removed.</td></tr><tr><td>Prior taxes</td><td>2025 bill of $13,890.72, including $751.49 interest and a $60 garnishment fee</td><td>Paid 6/9/2026. The 2022 bill was advertised as delinquent; the 2023 bill was returned by the post office.</td><td>Shows a history of late payment. No older balance was showing as of this report.</td></tr><tr><td>Deeds of trust</td><td>None found</td><td>The deed index shows only deeds and the City ordinance under both owner names.</td><td>No mortgage payoff appears to be needed. A title search should confirm.</td></tr><tr><td>Judgments, UCC filings, other liens</td><td>Not searched</td><td>Kept by the Clerk of Superior Court, not the Register of Deeds.</td><td>Order a full title search and judgment search before listing.</td></tr></table></div><p class="note">Sources: <a href="https://www.ccrodinternet.org/" target="_blank" rel="noopener">Register of Deeds</a> index and images; <a href="https://cityoffayetteville.legistar.com/LegislationDetail.aspx?ID=8074184&amp;GUID=1BA7E74F-B241-4331-B53D-7C890CDD05BC&amp;Options=&amp;Search=&amp;FullText=1" target="_blank" rel="noopener">City Council item 26-0406</a> (condemnation, demolition order and contract award); <a href="https://www.fayettevillenc.gov/files/sharedassets/main/v/1/monthly-building-report-august-2026.csv" target="_blank" rel="noopener">City building permit report, August 2026</a>; <a href="https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_160D/GS_160D-1129.html" target="_blank" rel="noopener">N.C. Gen. Stat. &sect; 160D-1129</a>; county tax bills for <a href="https://taxpwa.co.cumberland.nc.us/publicwebaccess/BillDetails.aspx?BillPk=4161539" target="_blank" rel="noopener">2026</a> and <a href="https://taxpwa.co.cumberland.nc.us/publicwebaccess/BillDetails.aspx?BillPk=3963467" target="_blank" rel="noopener">2025</a>. Get the final lien payoff, including fees and interest, in writing from City Code Enforcement and Finance.</p>
+      </div>
+    </section>
+
+    <section style="break-before:page">
+      <div class="container">
+        <h2>Environmental history</h2>
+<div class="card table-wrap"><table class="table parcel-table"><tr><th>Site</th><th>Distance / direction</th><th>Record</th><th>Status</th></tr><tr><td><strong>Subject, 511 S Eastern Blvd</strong></td><td>&mdash;</td><td>No tank, spill, brownfield, dry-cleaner, landfill or hazardous-site record found</td><td>Hotel built in 1972, before tanks had to be registered. Older hotels often had heating-oil tanks. Asbestos was found in the conference room / print shop building and was abated in the demolition.</td></tr><tr><td><strong>Chrome-Rite Plating, 514 S Eastern Blvd</strong></td><td>About 350&ndash;700 ft, across US 301 to the southwest</td><td>NC Inactive Hazardous Sites inventory (NONCD0001240). The 2019 hazardous waste layer rates groundwater and surface water risk as &ldquo;Higher.&rdquo;</td><td>No land-use restriction or voluntary cleanup on record. Chrome plating is linked to hexavalent chromium and other metals. The subject lies between this site and the river, so it may be downgradient. Not confirmed.</td></tr><tr><td>TForce Freight, 531 S Eastern Blvd</td><td>About 0.3 mi south</td><td>Open underground tank incident 48742 (2022) and open above-ground tank incident 96713</td><td>Both open; risk not yet ranked</td></tr><tr><td>Family Fare BP #220, 201 S Eastern Blvd</td><td>About 0.3 mi north</td><td>Open underground tank incident 100104 (2025)</td><td>Low risk; land-use restriction filed</td></tr><tr><td>Capitol Manufacturing, 710 Locust St</td><td>About 800 ft north</td><td>Underground tank incident, high risk at the time</td><td>Closed in 2000</td></tr><tr><td>Allied Terminals-Chemphalt, 845 S King St</td><td>About 0.4 mi</td><td>Open above-ground tank incident</td><td>Intermediate risk</td></tr><tr><td>Other nearby</td><td>0.2&ndash;0.4 mi</td><td>Closed incidents at Horne&rsquo;s Motor Lodge (220 S Eastern), Speedway (101 S Eastern), John Hair (202 S Eastern) and Modern Moving (537 S Eastern); an AST incident at TransSource Truck Repair (710 Teacher Dr)</td><td>Closed or minor</td></tr></table></div><p class="note">Sources: <a href="https://services2.arcgis.com/kCu40SDxsCGcuUWO/arcgis/rest/services/" target="_blank" rel="noopener">NC DEQ GIS layers</a> for tank incidents, tank facilities, inactive hazardous sites, hazardous waste sites, RCRA handlers and dry-cleaner directories, searched within about half a mile; the <a href="https://www.deq.nc.gov/waste-management/dwm/sf/ihs/ihsb-list-sites-name-march-2026/download?attachment" target="_blank" rel="noopener">DEQ inactive hazardous sites list (March 2026)</a>; <a href="https://edocs.deq.nc.gov/WasteManagement/Search.aspx?dbid=0&amp;searchcommand=%7b%5bWM%5d:%5bProgram_ID%5d=%22*NONCD0001240*%22%7d" target="_blank" rel="noopener">DEQ file room for Chrome-Rite</a>; <a href="https://www.fayettevillenc.gov/files/sharedassets/main/v/1/finance/purchasing/bids/2026/april/lot-cleaning-asbestos-abatement-and-demolition-511-s-eastern-blvd-cao-4-29-26-ts-revised-took-out-signature-items-4.30.pdf" target="_blank" rel="noopener">City demolition bid documents</a> (asbestos). Distances are straight-line estimates. This is a records screen, not a Phase I Environmental Site Assessment.</p><div class="card"><ul style="margin:0 0 0 1.2rem;padding:0"><li style="margin-bottom:.5rem"><strong>Recommendation.</strong> Order a Phase I ESA before listing, or let the buyer do so early in due diligence. The Phase I should review the Chrome-Rite file and the groundwater direction, and look for old heating-oil tanks, the pool and basement fill, and any buried demolition debris.</li><li style="margin-bottom:.5rem"><strong>Buyer reaction.</strong> Industrial and outdoor-storage buyers routinely buy near sites like these, but their lenders will require a Phase I. If the Phase I finds a &ldquo;recognized environmental condition,&rdquo; expect a Phase II request and a slower closing.</li></ul></div>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <h2>Zoning and likely uses</h2>
+<div class="card"><ul style="margin:0 0 0 1.2rem;padding:0"><li style="margin-bottom:.5rem"><strong>HI Heavy Industrial.</strong> The City&rsquo;s development guide describes HI as a district for heavy manufacturing, assembly, fabrication, processing, distribution and storage (<a href="https://www.fayettevillenc.gov/files/sharedassets/main/v/1/development-services/documents/city-of-fayetteville-development-guide.pdf" target="_blank" rel="noopener">City development guide</a>). The neighbor to the south at 525 S Eastern is zoned CC.</li><li style="margin-bottom:.5rem"><strong>Neighborhood plan.</strong> The Central Campbellton Neighborhood Plan left the HI land east of Eastern Blvd out of the downtown rezoning. Heavy industrial uses remain allowed, and commercial and warehouse uses are permitted in HI. The plan notes the City &ldquo;may need to address&rdquo; the HI zoning on the east side in the future (<a href="https://www.fayettevillenc.gov/files/sharedassets/main/v/1/development-services/documents/studies-and-plans/central-campbellton-plan-f.pdf" target="_blank" rel="noopener">Central Campbellton plan</a>).</li><li style="margin-bottom:.5rem"><strong>Cape Fear River Overlay.</strong> City GIS places the parcel in the Cape Fear River Overlay (CFRO) district, UDO section 30-3.H.10 (<a href="https://online.encodeplus.com/regs/fayetteville-nc/doc-viewer.aspx?secid=9428" target="_blank" rel="noopener">UDO overlay districts</a>). Confirm any added design or use standards with City Planning.</li><li style="margin-bottom:.5rem"><strong>A new hotel is unlikely.</strong> Hotel use is probably not allowed by right in HI, and rebuilding one would likely need a rezoning. Check the UDO use table. A new use or site plan will also trigger current landscaping, buffer and stormwater rules.</li><li style="margin-bottom:.5rem"><strong>Likely buyers and uses.</strong> Contractor yard, truck or trailer parking, equipment storage, flex or small warehouse, or a service business that wants US 301 visibility. The paved pad and utilities are useful for yard users. A builder who needs a clean, compacted pad will have to deal with the old basement, pool and foundations.</li></ul></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>Methodology</h2>
+<div class="card"><ul style="margin:0 0 0 1.2rem;padding:0"><li style="margin-bottom:.5rem"><strong>Approach.</strong> Sales comparison on price per SF of land, using closed sales of vacant industrial and commercial land in Fayetteville from 2023 to 2026, mostly within about a mile of the subject.</li><li style="margin-bottom:.5rem"><strong>Sources.</strong> Prices come from county deed excise stamps ($2 per $1,000) and the county&rsquo;s sales records. No comps came from the owner.</li><li style="margin-bottom:.5rem"><strong>Adjustments.</strong> Each sale is adjusted for time (about 1.5% a year), size, usable area, site work and utilities, frontage and location, and terms of sale. The subject gets credit for its paving and utilities, offset by the cost and risk of the old basement, pool and slab. The percentages are the broker&rsquo;s professional judgment.</li><li style="margin-bottom:.5rem"><strong>Lien and environment.</strong> The value is the price a buyer would pay with the demolition lien paid at closing. The lien does not change what the land is worth, but it decides how much the seller keeps. The neighborhood&rsquo;s environmental history is reflected in the location adjustment for comps outside it.</li></ul></div>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <h2>Comparable land sales</h2>
+<style>@media print{.se-comps th:nth-child(1),.se-comps td:nth-child(1){width:24%}.se-comps th:nth-child(2),.se-comps td:nth-child(2){width:7%}.se-comps th:nth-child(3),.se-comps td:nth-child(3){width:8%}.se-comps th:nth-child(4),.se-comps td:nth-child(4){width:11%}.se-comps th:nth-child(5),.se-comps td:nth-child(5){width:11%}.se-comps th:nth-child(6),.se-comps td:nth-child(6){width:7%}.se-comps th:nth-child(7),.se-comps td:nth-child(7){width:32%}}</style><div class="card table-wrap"><table class="table comps-table se-comps"><tr><th>Comp property</th><th>Acres</th><th>Zoning</th><th>Sale date</th><th>Price</th><th>$/SF</th><th>Notes</th></tr><tr><td><strong>C1. 0 S Eastern Blvd</strong><br/>Frampton Properties LLC and heirs</td><td>5.70</td><td>HI</td><td>8/28/2024</td><td>$145,000</td><td>$0.58</td><td>Wooded land just south of the subject on the same side of US 301. County lists 2.54 ac as swamp or waste. Estate sale with many heirs.</td></tr><tr><td><strong>C2. 610 E Russell St</strong><br/>Russell Street LLC</td><td>10.91</td><td>CC / HI</td><td>5/22/2023</td><td>$535,000</td><td>$1.13</td><td>Industrial land at Russell St and US 301, 0.3 mi north. Irregular shape. Minor building on the tax card.</td></tr><tr><td><strong>C3. 1064 Wilkes Rd</strong><br/>Highland Paving Co LLC</td><td>2.52</td><td>MP</td><td>7/26/2024</td><td>$135,000</td><td>$1.23</td><td>Industrial lot on an interior street, bought by a paving contractor. 1.1 mi.</td></tr><tr><td><strong>C4. 0 Gillespie St</strong><br/>Vival Realty LLC</td><td>9.49</td><td>MP</td><td>10/9/2026</td><td>$250,000</td><td>$0.60</td><td>Industrial land behind Gillespie St frontage. 1.65 ac swamp and an irregular shape. 3.7 mi.</td></tr><tr><td><strong>C5. 1720 Cedar Creek Rd</strong><br/>City of Fayetteville</td><td>4.54</td><td>LC</td><td>8/30/2023</td><td>$679,000</td><td>$3.43</td><td>Commercial frontage site near I-95 Exit 49, bought by the City. 2.5 mi.</td></tr></table></div><p class="note">Sources: Cumberland County tax records for <a href="https://taxpwa.co.cumberland.nc.us/camapwa/PropertySummary.aspx?PARCELPK=94306" target="_blank" rel="noopener">C1</a>, <a href="https://taxpwa.co.cumberland.nc.us/camapwa/PropertySummary.aspx?PARCELPK=83674" target="_blank" rel="noopener">C2</a>, <a href="https://taxpwa.co.cumberland.nc.us/camapwa/PropertySummary.aspx?PARCELPK=77626" target="_blank" rel="noopener">C3</a>, <a href="https://taxpwa.co.cumberland.nc.us/camapwa/PropertySummary.aspx?PARCELPK=74350" target="_blank" rel="noopener">C4</a>, <a href="https://taxpwa.co.cumberland.nc.us/camapwa/PropertySummary.aspx?PARCELPK=94170" target="_blank" rel="noopener">C5</a>. All were vacant or nearly vacant at sale. Distances are straight-line from the subject.</p>
+      </div>
+    </section>
+
+    <section style="break-before:page">
+      <div class="container">
+        <h2>Adjustment matrix</h2>
+<p class="lede" style="margin-bottom:var(--space-6)">Each sale is adjusted to the subject: 3.93 acres zoned HI, cleared, with a paved pad and utilities in place, about 470 ft along US 301, an old basement and pool to deal with, and an inactive hazardous site across the street.</p><div class="card table-wrap"><table class="table adj-table"><tr><th>Comp property</th><th>Unadj. $/SF</th><th>Net Adj. %</th><th>What was adjusted</th><th>Adj. $/SF</th></tr><tr><td><strong>C1. Frampton / heirs &mdash; 0 S Eastern Blvd</strong></td><td>$0.58</td><td>+69%</td><td>Time, 27 mo (+4%); Usable area: about 45% swamp or waste (+35%); Subject paved pad and utilities, less basement and slab risk (+15%); Size, larger tract (+5%); Terms: multi-heir estate sale (+10%)</td><td>$0.99</td></tr><tr><td><strong>C2. Russell Street LLC &mdash; 610 E Russell St</strong></td><td>$1.13</td><td>+36%</td><td>Time, 42 mo (+6%); Size, about 2.8 times the subject (+15%); Shape: very irregular (+10%); Subject pad and utilities vs. partly improved comp (+5%); Location: same US 301 corridor (0%)</td><td>$1.53</td></tr><tr><td><strong>C3. Highland Paving &mdash; 1064 Wilkes Rd</strong></td><td>$1.23</td><td>+39%</td><td>Time, 28 mo (+4%); Size, smaller lot (&minus;5%); Frontage: interior street vs. US 301 (+25%); Subject paved pad and utilities, less basement and slab risk (+15%)</td><td>$1.71</td></tr><tr><td><strong>C4. Vival Realty &mdash; 0 Gillespie St</strong></td><td>$0.60</td><td>+75%</td><td>Time, current (0%); Size, larger tract (+15%); Usable area: swamp and irregular shape (+30%); Subject paved pad and utilities, less basement and slab risk (+15%); Frontage: rear land vs. US 301 (+15%)</td><td>$1.06</td></tr><tr><td><strong>C5. City of Fayetteville &mdash; 1720 Cedar Creek Rd</strong></td><td>$3.43</td><td>&minus;49%</td><td>Time, 39 mo (+6%); Terms: public buyer (&minus;15%); Location: Cedar Creek Rd near I-95 Exit 49 (&minus;25%); Zoning: commercial LC (&minus;10%); Neighborhood environmental history at subject (&minus;10%); Subject pad and utilities (+5%)</td><td>$1.75</td></tr></table></div><p class="note">Adjusted range: $0.99&ndash;$1.75 per SF. Weighted average: $1.45 per SF (C2 30%, C3 25%, C1 20%, C5 15%, C4 10%). C2 and C3 get the most weight: C2 is on the same US 301 corridor 0.3 mi away, and C3 is a similar-size yard site bought by a contractor. The concluded rate is <strong>$1.60 per SF</strong>, a little above the weighted average for the subject&rsquo;s paving and frontage. Unadjusted $/SF uses county land areas.</p>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <h2>Value analysis &amp; net proceeds</h2>
+<div class="card">
+          <div class="table-wrap">
+            <table class="table parcel-table">
+              <tr><th>Step</th><th>Basis</th><th>Amount</th></tr>
+              <tr><td>Land value, price per SF</td><td>171,191 SF &times; $1.60</td><td>$273,906</td></tr>
+              <tr><td><strong>Broker price opinion (gross, rounded)</strong></td><td>About $70,000 per acre</td><td><strong>$275,000</strong></td></tr>
+              <tr><td>Value range</td><td>$1.35&ndash;$1.90 per SF</td><td>$230,000&ndash;$325,000</td></tr>
+              <tr><td>County land value (reference)</td><td>2026 tax card, land only</td><td>$75,938</td></tr>
+            </table>
+          </div>
+          <h3 style="margin-top:var(--space-6)">Estimated seller net proceeds</h3>
+          <div class="table-wrap">
+            <table class="table parcel-table">
+              <tr><th>Item</th><th>At $275,000</th><th>At $349,000 list</th></tr>
+              <tr><td>Sale price</td><td>$275,000</td><td>$349,000</td></tr>
+              <tr><td>Less City demolition lien (estimate)</td><td>&minus;$280,000</td><td>&minus;$280,000</td></tr>
+              <tr><td>Less 2026 property taxes</td><td>&minus;$13,583</td><td>&minus;$13,583</td></tr>
+              <tr><td>Less commission at 6% co-brokered</td><td>&minus;$16,500</td><td>&minus;$20,940</td></tr>
+              <tr><td>Less excise tax and closing costs (estimate)</td><td>&minus;$2,050</td><td>&minus;$2,200</td></tr>
+              <tr><td><strong>Estimated net to seller</strong></td><td><strong>&minus;$37,133</strong></td><td><strong>$32,277</strong></td></tr>
+            </table>
+          </div>
+          <p class="note">At the opinion of value, the lien and taxes use up the sale price, and the seller would have to bring about $37,000 to closing. At the full list price, the seller nets about $32,000. Interest on the 2026 taxes after 1/6/2027 and any City fees or interest on the lien would reduce these figures. The low end of the range applies if the Phase I finds a problem tied to the Chrome-Rite site, or the old basement and pool need costly excavation. The high end applies if a yard or truck-parking user values the existing paving and the Phase I is clean.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>Options for the lien</h2>
+<div class="card"><ul style="margin:0 0 0 1.2rem;padding:0"><li style="margin-bottom:.5rem"><strong>Ask the City to reduce or settle the lien.</strong> The lien exceeds the likely net value of the land. The City has an interest in getting the site back on the tax roll and in use. A written request to Code Enforcement and the City Attorney, with this valuation, could support a reduction, a payoff from net sale proceeds, or a payment plan.</li><li style="margin-bottom:.5rem"><strong>Walking away is not free.</strong> State law lets the City collect the demolition cost as a money judgment and attach it to the owner&rsquo;s other city property, so leaving the land unsold does not end the debt (<a href="https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_160D/GS_160D-1129.html" target="_blank" rel="noopener">N.C. Gen. Stat. &sect; 160D-1129</a>).</li><li style="margin-bottom:.5rem"><strong>Pay the 2026 taxes before 1/6/2027</strong> to stop interest, and appeal the stormwater fee if hard surfaces change.</li><li style="margin-bottom:.5rem"><strong>Correct the tax value.</strong> Ask the County to remove the demolished building from the 1/1/2027 assessment. That should bring the tax bill down sharply.</li></ul></div>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <h2>Counter-evidence</h2>
+<div class="card"><ul style="margin:0 0 0 1.2rem;padding:0"><li style="margin-bottom:.5rem"><strong>Owner&rsquo;s own prices.</strong> AMG paid $1,227,500 with a partner in 2021, and the 2026 buyout of the 39% partner at $690,944 implies about $1.77 million for the whole. Both reflect the hotel as a going business or the partners&rsquo; own accounting, not the cleared land. The buyout deed was signed in 12/2025, before demolition, and is not an arm&rsquo;s-length sale.</li><li style="margin-bottom:.5rem"><strong>Older hotel sales.</strong> Operating hotels on 2&ndash;5 acres in Fayetteville sold for $875,000&ndash;$1,550,000 from 2022 to 2026 (for example 1922 Cedar Creek Rd, 3.0 ac, $875,000 in 8/2024). Those prices pay for rooms and income, which this site no longer has.</li><li style="margin-bottom:.5rem"><strong>Higher commercial land sales.</strong> Frontage sites on stronger retail corridors sold for $5.78&ndash;$5.92 per SF (1885 Cedar Creek Rd, 5.16 ac, $1.3 million in 11/2022; 2028 Owen Dr, 2.81 ac, $725,000 in 5/2024). Smaller in-town sites near downtown sold for $7&ndash;$9 per SF. These are retail-zoned locations with far more demand and are not like this HI site.</li><li style="margin-bottom:.5rem"><strong>Lower sales nearby.</strong> C1, the land next door to the south, sold for $0.58 per SF in 2024. The county values the subject land at only $0.44 per SF.</li><li style="margin-bottom:.5rem"><strong>Upside.</strong> A user who needs a paved yard on US 301 now, or a future City rezoning of the east side of Eastern Blvd, could support a price above the range. Neither is assumed.</li><li style="margin-bottom:.5rem"><strong>Downside.</strong> A Phase I that finds contamination from the Chrome-Rite site or old tanks, or a large cost to dig out the basement and pool, could push the price below the range.</li></ul></div>
+      </div>
+    </section>
+
+    <section style="break-before:page">
+      <div class="container">
+        <h2>Listing proposal &amp; commission terms</h2>
+<div class="card">
+          <div class="terms-grid">
+            <div>
+              <h4>Commission</h4>
+              <p><strong>6% co-brokered</strong> &mdash; of the gross sale price when a cooperating broker brings the buyer, split under standard commercial co-brokerage practice.</p>
+              <p style="margin-top:.5rem"><strong>5% in-house</strong> &mdash; when Grant-Murray Real Estate, LLC brings the buyer directly.</p>
+              <p style="margin-top:.5rem">At the $349,000 list price: about $20,940 co-brokered or $17,450 in-house. At the $275,000 opinion of value: about $16,500 or $13,750.</p>
+            </div>
+            <div>
+              <h4>Price and term</h4>
+              <p>List at <strong>$349,000</strong> (about $2.04 per SF), leaving room to negotiate toward the $275,000 opinion. Suggested term: 12 months. Expect offers with a 60&ndash;90 day due-diligence period that includes a Phase I. The sale contract should say that the demolition lien and taxes are paid from the seller&rsquo;s proceeds at closing, or as agreed with the City.</p>
+            </div>
+          </div>
+          <h4 style="margin-top:var(--space-5)">Before launch</h4>
+          <ul style="margin:.4rem 0 0 1.2rem;padding:0">
+            <li>Get the City&rsquo;s written lien payoff, including fees and interest, and open talks on a reduction or settlement.</li>
+            <li>Order a title search and judgment search.</li>
+            <li>Order a Phase I ESA, or be ready to give buyers early access.</li>
+            <li>Order a boundary survey showing frontage, the pad, the old basement and pool areas, and utility stubs.</li>
+            <li>Ask PWC to confirm the water, sewer and power services left at the site.</li>
+          </ul>
+          <h4 style="margin-top:var(--space-5)">Marketing plan</h4>
+          <ul style="margin:.4rem 0 0 1.2rem;padding:0">
+            <li>Offering package with the site map, survey, utility notes, zoning summary and the Phase I if available.</li>
+            <li>Direct outreach to contractors, trucking and equipment companies, outdoor-storage operators and nearby industrial owners.</li>
+            <li>Listing on LoopNet, Crexi and the local MLS, and a sign on US 301.</li>
+            <li>Monthly activity reports to the owner.</li>
+          </ul>
+          <p class="note">Listing broker: <strong>Patrick Murray, CCIM, SIOR</strong>, Grant-Murray Real Estate, LLC. Final terms, duration and marketing-cost provisions will be set out in a separate written listing agreement.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <h2>Limitations</h2>
+<div class="card"><ol style="margin:0 0 0 1.2rem;padding:0"><li style="margin-bottom:.6rem"><strong>No inspection or survey.</strong> The property was not inspected. Acreage, frontage and flood status come from county GIS and are approximate. The condition of the pad, paving and utilities is as reported by the owner.</li><li style="margin-bottom:.6rem"><strong>Liens.</strong> The demolition lien amount is based on the City&rsquo;s contract and permit and the owner&rsquo;s estimate. The final payoff may differ. No title or judgment search was done.</li><li style="margin-bottom:.6rem"><strong>Environmental.</strong> The environmental section is a screen of public records, not a Phase I ESA. No soil or groundwater testing was done.</li><li style="margin-bottom:.6rem"><strong>Zoning.</strong> Allowed uses and the overlay district standards were not confirmed with City Planning.</li><li style="margin-bottom:.6rem"><strong>Comp data.</strong> Comp sizes and prices come from county records and deed stamps and were not confirmed with buyers or sellers.</li><li style="margin-bottom:.6rem">This is a broker&rsquo;s opinion of value for marketing purposes, prepared by Grant-Murray Real Estate, LLC. It is not a certified USPAP appraisal and is not legal or tax advice.</li></ol></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container two-col">
+        <div class="card">
+          <h3>Prepared by</h3>
+          <p><strong>Patrick Murray, CCIM, SIOR</strong><br/>Principal / Broker in Charge<br/>Grant-Murray Real Estate, LLC</p>
+          <p style="margin-top:.75rem">150 N. McPherson Church Rd<br/>Fayetteville, NC 28303</p>
+          <p style="margin-top:.75rem">O: 910.829.1617<br/>patrick@grantmurrayre.com<br/><a href="https://www.grantmurrayre.com" target="_blank" rel="noopener">grantmurrayre.com</a></p>
+        </div>
+        <div class="card">
+          <h3>Prepared for</h3>
+          <p><strong>AMG NC, LP</strong><br/>Owner of record<br/>6000 Columbus Ave #2504<br/>Plano, TX 75024</p>
+          <p class="disclaimer">This Broker Price Opinion (BPO) is prepared by Patrick Murray, CCIM, SIOR, of Grant-Murray Real Estate, LLC. It is not an appraisal and is not a certified valuation under USPAP. The conclusion uses the sales comparison approach on independently researched closed land sales. Adjustments reflect the broker&rsquo;s professional judgment.</p>
+        </div>
+      </div>
+    </section>
+</main>
+
+  <footer>
+    <div class="container footer-inner">
+      <img class="footer-logo" src="assets/gm-logo.svg" alt="Grant-Murray Real Estate" />
+      <div>
+        Broker Price Opinion &mdash; prepared 11/16/2026.<br/>
+        Prepared by Grant-Murray Real Estate | CCIM | SIOR<br/>
+        Live report: <a href="https://tpmurray13.github.io/bpo-511-s-eastern-blvd/" style="color:#ffffff;text-decoration:underline" target="_blank" rel="noopener">tpmurray13.github.io/bpo-511-s-eastern-blvd</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
